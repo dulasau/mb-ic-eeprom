@@ -11,6 +11,14 @@ pip3 install progressbar
 sudo chmod +x eeprom.py
 ```
 
+## Connection
+| 24c16/24u17   | Raspberry Pi |
+| ------------- | ------------ |
+| GND (#4)      | GND (#6)     |
+| VCC (#8)      | 3V3 (#1)     |
+| SCL (#6)      | SCL (#5)     |
+| SDA (#5)      | SDA (#3)     |
+
 ## Read EEPROM
 ```console
 ./eeprom.py -r
