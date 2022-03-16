@@ -19,6 +19,8 @@ sudo chmod +x eeprom.py
 | SCL (#6)      | SCL (#5)     |
 | SDA (#5)      | SDA (#3)     |
 
+![PXL_20220315_044212041](https://user-images.githubusercontent.com/7697859/158518567-923fd7b8-71a3-4009-978f-6a09aadaf5f4.jpg)
+
 ## Read EEPROM
 ```console
 ./eeprom.py -r output.bin
