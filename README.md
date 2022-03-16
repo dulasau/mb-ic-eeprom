@@ -13,5 +13,11 @@ sudo chmod +x eeprom.py
 
 ## Read EEPROM
 ```console
-./eeprom.py -r
+./eeprom.py -r output.bin
 ```
+
+## Write EEPROM
+```console
+./eeprom.py -w input.bin
+```
+
