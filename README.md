@@ -1,4 +1,7 @@
 # Mercedes-Benz Instrument Cluster EEPROM read/write tool for Raspberry Pi
+This tool is designed to read/write Mercedes instrument cluster eeproms "in-circuit" (in most cases it's required to disconnet the main board) with Raspberry Pi.
+Tested on W209 and W203, but should also work with most Mercedes instrument clusters with 24c16/24u17 eeproms.
+
 
 ## Setup
 ```console
