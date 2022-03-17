@@ -90,7 +90,6 @@ def write_eeprom(file_name):
 
 
 if args.r:
-  print(args.r)
   read_eeprom(args.r)
 else:
   write_eeprom(args.w)
